@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189102940741",
+    "project_id": "ring-map-addf0",
+    "storage_bucket": "ring-map-addf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189102940741:android:f2138babf9ac205b35392c",
+        "android_client_info": {
+          "package_name": "com.example.ringmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189102940741-v16cvadhtejgbncshac36rqgveripjtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ringmap",
+            "certificate_hash": "7228ce480d3471d9662933e625aa47a2268b4237"
+          }
+        },
+        {
+          "client_id": "189102940741-oaarug4rg7ncfhtf4lln8iol1t46aogo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9gSxKQu_bV3XQLFJ69yrSjvj55q3uoFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189102940741-oaarug4rg7ncfhtf4lln8iol1t46aogo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

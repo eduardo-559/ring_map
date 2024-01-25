@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_places">
+
+    <fragment
+        android:id="@+id/navigation_places"
+        android:name="com.example.ringmap.ui.places.PlacesFragment"
+        android:label="locais favoritos"
+        tools:layout="@layout/fragment_places" />
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.example.ringmap.ui.friends.FriendsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.ringmap.ui.perfil.PerfilFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

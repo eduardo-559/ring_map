@@ -1,0 +1,23 @@
+<!-- item_favorite_location.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/friendID"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_delete_friend"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/baseline_delete_24"
+        android:backgroundTint="#dc3545"/>
+
+</LinearLayout>

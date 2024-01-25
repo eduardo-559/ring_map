@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Tela_principal"
+        android:background="@drawable/background"
+        >
+
+
+        <View
+            android:id="@+id/containerComponents3"
+            style="@style/ContainerComponents"
+            android:layout_height="310dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/text_user"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@id/containerComponents3"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents3"
+            app:layout_constraintTop_toTopOf="@id/containerComponents3"
+            />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@id/containerComponents3"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents3"
+            app:layout_constraintTop_toBottomOf="@id/text_user"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_deslogar"
+            style="@style/ButtonLogin"
+            android:text="deslogar"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/containerComponents3"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents3"
+            app:layout_constraintTop_toBottomOf="@id/text_email"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_mapa"
+            style="@style/ButtonLogin"
+            android:text="mapa"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/containerComponents3"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents3"
+            app:layout_constraintTop_toBottomOf="@id/bt_deslogar"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_inicial"
+            style="@style/ButtonLogin"
+            android:text="mapa"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/containerComponents3"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents3"
+            app:layout_constraintTop_toBottomOf="@id/bt_mapa"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

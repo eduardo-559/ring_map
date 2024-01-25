@@ -1,0 +1,24 @@
+<!-- content_bottom_fragment.xml -->
+<LinearLayout android:id="@+id/ll_bottom_menu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bottom_sheet"
+    tools:context=".AlarmFragment">
+
+    <!-- Campos de texto, botões, etc. -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cancel"
+        android:background="#dc3545"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="CANCELAR ALARME"
+        android:layout_marginBottom="20dp"
+        />
+
+
+</LinearLayout>

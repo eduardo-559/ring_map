@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RingMap" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <!--primary colors -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">#031DAA</item>
+        <item name="colorOnPrimary">@color/azul_escuro</item>
+
+        <!--secondary colors-->
+
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">#CFF5FF</item>
+        <item name="colorOnSecondary">@color/azul_claro</item>
+    </style>
+    <style name="Theme.RingMap" parent="Base.Theme.RingMap" />
+
+    <style name="Theme.RingMap.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RingMap.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RingMap.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <!-- Base application theme. -->
+    <style name="Base.Theme.RingMap.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

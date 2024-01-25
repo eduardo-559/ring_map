@@ -1,0 +1,97 @@
+<!-- content_bottom_fragment.xml -->
+<LinearLayout android:id="@+id/ll_bottom_menu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bottom_sheet"
+    tools:context=".ContentBottomFragment">
+    
+    <LinearLayout
+        android:id="@+id/ll_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raio"
+                android:textSize="20dp"
+                android:textColor="@color/azul_escuro"
+                android:gravity="center"/>
+            <SeekBar
+                android:layout_marginTop="10dp"
+                android:id="@+id/seek_bar_radius"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:progressBackgroundTint="@color/black"
+                android:progressTint="@color/azul_escuro"
+                android:thumbTint="@color/azul_escuro"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_save"
+            style="@style/ButtonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="definir"
+           />
+    </LinearLayout>
+    <!-- Campos de texto, botões, etc. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:backgroundTint="@color/black"
+            android:id="@+id/edit_text_radius"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Metros"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/edit_name_place"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Local"
+            android:textColorHint="@color/dark_gray"
+            android:gravity="center"/>
+    </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/favoritar"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Salvar Favorito"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:background="@color/azul_claro"
+            android:layout_marginBottom="25dp"/>
+
+
+    
+</LinearLayout>

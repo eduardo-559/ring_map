@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_places"
+        android:icon="@drawable/baseline_place_24"
+        android:title="locais favoritos"
+        />
+
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/baseline_people_24"
+        android:title="seguindo" />
+
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_name"
+        android:title="perfil" />
+
+</menu>
